@@ -1,4 +1,6 @@
-name: Daves space
-title: Daves space
+name: Sandpit
+title: Sandpit
 description: A Developer from somewhere
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
