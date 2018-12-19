@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1>Welcome to my world</h1>
+<p>Boys playing with dangerous toys</p>
+
+
+<h3>Posts</h3>
+<div class="posts">
+  {% for post in site.posts %}
+    {% unless post.draft %}
+    <article class="post">    
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.content | split:"<!--more-->" | first }}
+      </div>
+      
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+    {% endunless %}
+  {% endfor %}
+</div>
+
+
