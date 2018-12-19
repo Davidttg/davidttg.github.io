@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Life on the edge
 ---
 
