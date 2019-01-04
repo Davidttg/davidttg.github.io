@@ -2,6 +2,6 @@ name: Sandpit
 title: Sandpit
 description: A Developer from somewhere
 theme: jekyll-theme-cayman
-imagesurl: assets/img
+imagesurl: /assets/img
 plugins:
   - jekyll-sitemap
