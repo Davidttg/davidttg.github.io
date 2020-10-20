@@ -3,18 +3,12 @@
 
 @import "{{ site.theme }}";
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: #159957;
+header.page-header h1, header.page-header h2{
+     width: 500px;
+    margin: 0 auto;
 }
 
-h1.project-name a,
-h1.project-name a:hover,
-h1.project-name a:active,
-h1.project-name a:visited
-{
-color: #fff;
-text-decoration: none;
+main#content {
+    width: 1024px;
+    margin: 0 auto;
 }
